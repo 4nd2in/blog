@@ -1,0 +1,143 @@
+/* MY STYLE */
+a.post-link{
+  color: black;
+}
+a.post-link:link, a.post-link:visited{
+  color: black;
+  text-decoration: none;
+}
+a.post-link:hover, a.post-link:active{
+  color: #f6648c;
+  text-decoration: none;
+}
+
+.field-info{
+  color: #f6648c;
+  font-weight: bold;
+  font-size: 22px;
+}
+
+.horizontal-line{
+  height: 10px;
+  background: #f6648c;
+}
+
+#signout{
+  color: rgba(0,0,0,.9);
+}
+#signout:hover{
+  color: rgba(0,0,0,.9);
+  text-decoration: underline;
+}
+
+/* MULTISTEP FORM */
+
+/* Make circles that indicate the steps of the form: */
+.step {
+  height: 16px;
+  width: 16px;
+  margin: 0 2px;
+  background-color: #bbbbbb;
+  border: none;
+  border-radius: 50%;
+  display: inline-block;
+  opacity: 0.5;
+}
+
+/* Mark the active step: */
+.step.active {
+  opacity: 1;
+  background-color: #f6648c;
+}
+
+.step-field {
+  border: 0 none;
+  display: relative;
+}
+
+.step-field:not(:first-of-type) {
+  display: none;
+}
+
+/* PASSWORD METER */
+meter {
+  /* Reset the default appearance */
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+
+  margin: 0 auto 1em;
+  width: 100%;
+  height: 0.5em;
+
+  /* Applicable only to Firefox */
+  background: none;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+meter::-webkit-meter-bar {
+  background: none;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+/* Webkit based browsers */
+meter[value="1"]::-webkit-meter-optimum-value { background: red; }
+meter[value="2"]::-webkit-meter-optimum-value { background: orange; }
+meter[value="3"]::-webkit-meter-optimum-value { background: yellow; }
+meter[value="4"]::-webkit-meter-optimum-value { background: green; }
+
+/* Gecko based browsers */
+meter[value="1"]::-moz-meter-bar { background: red; }
+meter[value="2"]::-moz-meter-bar { background: orange; }
+meter[value="3"]::-moz-meter-bar { background: yellow; }
+meter[value="4"]::-moz-meter-bar { background: green; }
+
+/* RESPONSIVE */
+
+/* Extra Small Devices 576px and down */
+@media only screen and (max-width: 576px) {
+  .step {
+    height: 8px;
+    width: 8px;
+    margin: 0 2px;
+    background-color: #bbbbbb;
+    border: none;
+    border-radius: 50%;
+    display: inline-block;
+    opacity: 0.5;
+  }
+}
+/* Small Devices 576px and up */
+@media only screen and (min-width: 576px) {
+  .step {
+    height: 12px;
+    width: 12px;
+    margin: 0 2px;
+    background-color: #bbbbbb;
+    border: none;
+    border-radius: 50%;
+    display: inline-block;
+    opacity: 0.5;
+  }
+}
+/* Medium Devices 768px and up */
+@media only screen and (min-width: 768px) {
+  .step {
+    height: 16px;
+    width: 16px;
+    margin: 0 2px;
+    background-color: #bbbbbb;
+    border: none;
+    border-radius: 50%;
+    display: inline-block;
+    opacity: 0.5;
+  }
+}
+/* Large Devices 992px and up */
+@media only screen and (min-width: 992px) {
+
+}
+/* Extra Large Devices 1200 and up */
+@media only screen and (min-width: 1200px) {
+
+}
