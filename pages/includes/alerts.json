@@ -1,0 +1,156 @@
+{
+"alerts":[
+    {
+      "case":"empty",
+      "title":"Fill In Error!",
+      "content":"Fill in all fields!",
+      "appearance":"warning"
+    },
+    {
+      "case":"pw-not-equal",
+      "title":"Sign Up Error!",
+      "content":"Passwords must be equal!",
+      "appearance":"warning"
+    },
+    {
+      "case":"pw-unsafe",
+      "title":"Sign Up Error!",
+      "content":"This password is very common, which is why it is not allowed on this website!",
+      "appearance":"warning"
+    },
+    {
+      "case":"pw-validation-failed",
+      "title":"Sign Up Error!",
+      "content":"Your password must contain at least 1 number, 1 special character, 1 uppercase letter and 1 lowercase letter. Length must be at least 10.",
+      "appearance":"warning"
+    },
+    {
+      "case":"user-length-wrong",
+      "title":"Sign Up Error!",
+      "content":"Maximum length of the username is 45!",
+      "appearance":"warning"
+    },
+    {
+      "case":"user-taken",
+      "title":"Sign Up Error!",
+      "content":"Username already exists!",
+      "appearance":"warning"
+    },
+    {
+      "case":"email-invalid",
+      "title":"Sign Up Error!",
+      "content":"EMail is not valid!",
+      "appearance":"warning"
+    },
+    {
+      "case":"signin-error",
+      "title":"Sign In Error!",
+      "content":"Username or Password is wrong!",
+      "appearance":"warning"
+    },
+    {
+      "case":"user-deleted",
+      "title":"Sign In Error!",
+      "content":"Your Account has been deleted!",
+      "appearance":"warning"
+    },
+    {
+      "case":"email-not-confirmed",
+      "title":"Sign In Error!",
+      "content":"Your EMail is not confirmed yet! Confirm it and try again!",
+      "appearance":"warning"
+    },
+    {
+      "case":"email-not-sent",
+      "title":"Verification Error!",
+      "content":"Verification EMail was not sent, try it again!",
+      "appearance":"warning"
+    },
+    {
+      "case":"post-title-length-wrong",
+      "title":"Add Post Error!",
+      "content":"Maximum length of title is 45!",
+      "appearance":"warning"
+    },
+    {
+      "case":"post-header-length-wrong",
+      "title":"Add Post Error!",
+      "content":"Maximum length of header is 256!",
+      "appearance":"warning"
+    },
+    {
+      "case":"permission-denied",
+      "title":"Permission Denied!",
+      "content":"You do not have the permission to visit this site!",
+      "appearance":"error"
+    },
+    {
+      "case":"user-not-found",
+      "title":"Finding Error!",
+      "content":"User was not found in our database!",
+      "appearance":"warning"
+    },
+    {
+      "case":"sql-error",
+      "title":"Connection Error!",
+      "content":"Please try it again later.",
+      "appearance":"warning"
+    },
+    {
+      "case":"session-expired",
+      "title":"Session expired!",
+      "content":"Please sign in again.",
+      "appearance":"warning"
+    },
+    {
+      "case":"wrong-pw",
+      "title":"Wrong Password!",
+      "content":"Your old password is wrong!",
+      "appearance":"warning"
+    },
+
+
+    {
+      "case":"signup-success",
+      "title":"Congratulation!",
+      "content":"You signed up successfully. Verify your EMail!",
+      "appearance":"success"
+    },
+    {
+      "case":"verification-success",
+      "title":"Congratulation!",
+      "content":"You verified your EMail successfully!",
+      "appearance":"success"
+    },
+    {
+      "case":"pw-reset-success",
+      "title":"Congratulation!",
+      "content":"Your password was reset successfully!",
+      "appearance":"success"
+    },
+    {
+      "case":"signout-success",
+      "title":"Congratulation!",
+      "content":"You signed out successfully!",
+      "appearance":"success"
+    },
+    {
+      "case":"post-add-success",
+      "title":"Congratulation!",
+      "content":"You added your post successfully!",
+      "appearance":"success"
+    },
+    {
+      "case":"forgot-pw-success",
+      "title":"Congratulation!",
+      "content":"Your EMail to reset your password has been sent!",
+      "appearance":"success"
+    },
+    {
+      "case":"gourps-updated-success",
+      "title":"Congratulation!",
+      "content":"All Groups have been updated",
+      "appearance":"success"
+    }
+]
+}
