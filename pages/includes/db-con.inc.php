@@ -14,18 +14,18 @@ Version    	Date            Changes		 		Changer
 Copyright ©2019 Andrin Weiler, Switzerland. All rights reserved.
 ------------------------------------------------------------------ */
 // CONST
-const DBHOST = 'ukugohak.mysql.db.hostpoint.ch';
-const DBPASSWD = '4#D!?VT6q?akeUZ';
+const DBHOST = '';
+const DBPASSWD = '';
 
-const MAILHOST = 'asmtp.mail.hostpoint.ch';
-const MAILPASSWD = 'KHUHUzDZVPz9MRS';
+const MAILHOST = '';
+const MAILPASSWD = '';
 
-const PEPPER = '.zXr-4y=^OVVkh;QsN\Na';
+const PEPPER = '';
 const COST = 12;
 
 // DATABASE CONNECTION
 $dbHost = DBHOST;
-$dbUser = 'ukugohak_php';
+$dbUser = '';
 $dbPassword = DBPASSWD;
 $dbName = 'ukugohak_blog';
 
