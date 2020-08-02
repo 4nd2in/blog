@@ -12,6 +12,8 @@ This is an education project. I wanted to create my own blogging website to lear
 <img align="left" alt="MariaDB" width="26px" src="https://www.startpage.com/av/proxy-image?piurl=https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F1145729423628357632%2FjuwtUgGy_400x400.png&sp=1596370020Td7e6d783bb42775426a3955509a229fed36edae32b115f1068f946c871665716" />
 <img align="left" alt="GitHub" width="26px" src="https://raw.githubusercontent.com/github/explore/78df643247d429f6cc873026c0622819ad797942/topics/github/github.png" />
 
+<br />
+
 ## 👾 Known bugs and vulnerabilities
 * If the program crashes, the current action, even if it is not complete, cannot be undone
 * If there is a / at the end of the URL, the paths are not working (HTACCESS)
